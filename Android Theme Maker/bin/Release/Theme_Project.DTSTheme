@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+<Properties TargetPlatform="" Resolution="">
+<ProjectName></ProjectName>
+<Version></Version>
+<ThemeAuthor></ThemeAuthor>
+<PackageName></PackageName>
+</Properties>
+<Customizing>
+<Preview></Preview>
+<Wallpaper></Wallpaper>
+<Ringtone></Ringtone>
+<Alarm></Alarm>
+<Notification></Notification>
+</Customizing>
+<Folders>
+<Xml></Xml>
+<values></values>
+<Drawable></Drawable>
+<Drawable_LDPI></Drawable_LDPI>
+<Drawable_MDPI></Drawable_MDPI>
+<Drawable_HDPI></Drawable_HDPI>
+<Drawable_xHDPI></Drawable_xHDPI>
+<Drawable_NoDPI></Drawable_NoDPI>
+<color></color>
+<Mipmap_HDPI></Mipmap_HDPI>
+<Mipmap_xHDPI></Mipmap_xHDPI>
+</Folders>
+</Project>

@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{338D984F-2720-41F7-8C3B-5E586A672B23}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Android_Theme_Studio.My.MyApplication</StartupObject>
+    <RootNamespace>Android_Theme_Studio</RootNamespace>
+    <AssemblyName>Android Theme Studio</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Android Theme Studio.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Optimize>true</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Android Theme Studio.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DocumentationFile>Android Theme Studio.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DocumentationFile>Android Theme Studio.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debugiing|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debugiing\</OutputPath>
+    <DocumentationFile>Android Theme Studio.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debugiing|AnyCPU'">
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debugiing\</OutputPath>
+    <DocumentationFile>Android Theme Studio.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ATS-Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ColorPicker">
+      <HintPath>..\..\..\..\Development\VB.net\Tools\color picker dialog\ColorPicker.dll</HintPath>
+    </Reference>
+    <Reference Include="ColorPickerControls">
+      <HintPath>..\..\..\..\Development\VB.net\Tools\color picker dialog\ColorPickerControls.dll</HintPath>
+    </Reference>
+    <Reference Include="JacksonSoft.CustomTabControl">
+      <HintPath>C:\Users\mouhab\Desktop\JacksonSoft.CustomTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="MACTrackBarLib">
+      <HintPath>..\..\..\..\Development\VB.net\Tools\MACTrackBarLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>..\..\..\..\Development\VB.net\Tools\Windows API 1.1\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>..\..\..\..\Development\VB.net\Tools\Windows API 1.1\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="VIBlend.WinForms.Controls, Version=9.0.0.0, Culture=neutral, PublicKeyToken=6feea38fef5ea0cf">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="VIBlend.WinForms.Utilities, Version=8.0.0.0, Culture=neutral, PublicKeyToken=970a5af59bc48043">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsFormsAero, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WindowsFormsAero.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ColorChanger\HSLFilter.vb" />
+    <Compile Include="Classes\ColorChanger\IFilter.vb" />
+    <Compile Include="Classes\ColorChanger\ResizeFilter.vb" />
+    <Compile Include="Classes\InnerSetting.vb" />
+    <Compile Include="Classes\Project.vb" />
+    <Compile Include="Classes\Application_procedures.vb" />
+    <Compile Include="Classes\Xmls.vb" />
+    <Compile Include="Dialogs\Color_Picker.Designer.vb">
+      <DependentUpon>Color_Picker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Color_Picker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FRM_newapp.Designer.vb">
+      <DependentUpon>FRM_newapp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FRM_newapp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Frm_XMLEditor.Designer.vb">
+      <DependentUpon>Frm_XMLEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Frm_XMLEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\RecentColors.Designer.vb">
+      <DependentUpon>RecentColors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\RecentColors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Gradientbutton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Image_Editor.Designer.vb">
+      <DependentUpon>Image_Editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Image_Editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FRMDTAILS.Designer.vb">
+      <DependentUpon>FRMDTAILS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FRMDTAILS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\img_prev.Designer.vb">
+      <DependentUpon>img_prev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\img_prev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\LoadingProject.Designer.vb">
+      <DependentUpon>LoadingProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\LoadingProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Splash screen.Designer.vb">
+      <DependentUpon>Splash screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Splash screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\GradientPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Main_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.vb">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMDB.Designer.vb">
+      <DependentUpon>FRMDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FRMTONES.Designer.vb">
+      <DependentUpon>FRMTONES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FRMTONES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FRM_NEWPRJCT.Designer.vb">
+      <DependentUpon>FRM_NEWPRJCT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FRM_NEWPRJCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Dialogs\MYAbout1.Designer.vb">
+      <DependentUpon>MYAbout1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\MYAbout1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Declaration.vb" />
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\Color_Picker.resx">
+      <DependentUpon>Color_Picker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FRM_newapp.resx">
+      <DependentUpon>FRM_newapp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Frm_XMLEditor.resx">
+      <DependentUpon>Frm_XMLEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\RecentColors.resx">
+      <DependentUpon>RecentColors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Gradientbutton.resx">
+      <DependentUpon>Gradientbutton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Image_Editor.resx">
+      <DependentUpon>Image_Editor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FRMDTAILS.resx">
+      <DependentUpon>FRMDTAILS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\img_prev.resx">
+      <DependentUpon>img_prev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\LoadingProject.resx">
+      <DependentUpon>LoadingProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Splash screen.resx">
+      <DependentUpon>Splash screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\GradientPanel.resx">
+      <DependentUpon>GradientPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMDB.resx">
+      <DependentUpon>FRMDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FRMTONES.resx">
+      <DependentUpon>FRMTONES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FRM_NEWPRJCT.resx">
+      <DependentUpon>FRM_NEWPRJCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MYAbout1.resx">
+      <DependentUpon>MYAbout1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone-android-htc-mobile-phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corss-x-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Theme_Project.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Palette-Colours.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RZ0VIbs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RZ0VIbs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ATS-Icon.ico" />
+    <None Include="Resources\half_full.png" />
+    <None Include="Resources\expand.png" />
+    <None Include="Resources\collapse.png" />
+    <None Include="Resources\zoom-in.png" />
+    <None Include="Resources\zoom-out.png" />
+    <None Include="Resources\photo2.png" />
+    <None Include="Resources\tag.png" />
+    <None Include="Resources\delete1.png" />
+    <None Include="Resources\edit-document.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\file-upload1.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\file-plus2.png" />
+    <None Include="Resources\file-plus1.png" />
+    <None Include="Resources\pencil2.png" />
+    <None Include="Resources\corss_x_circle.png" />
+    <None Include="Resources\Archive.png" />
+    <None Include="Resources\cloud_upload.png" />
+    <None Include="Resources\cloud-upload.png" />
+    <None Include="Resources\file_upload.png" />
+    <None Include="Resources\pencil1.png" />
+    <None Include="Resources\file-upload.png" />
+    <None Include="Resources\write.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\gear.png" />
+    <None Include="Resources\Palette-Colours1.png" />
+    <None Include="Resources\file-fill.png" />
+    <None Include="Resources\file-plus.png" />
+    <None Include="Resources\ATS-Icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

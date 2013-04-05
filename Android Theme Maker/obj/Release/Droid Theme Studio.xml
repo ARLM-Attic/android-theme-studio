@@ -1,0 +1,199 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DroidThemeStudio
+</name>
+</assembly>
+<members>
+<member name="P:Droid_Theme_Studio.HSLFilter.Hue">
+	<summary>
+ Get or set hue correction value.
+ </summary>
+	<value>Any double, will be scaled to range [0..360).</value>
+	<returns>Double in range [0..360).</returns>
+</member><member name="P:Droid_Theme_Studio.HSLFilter.Saturation">
+	<summary>
+ Get or set saturation correction value.
+ </summary>
+	<value>Double in range [-100..+100]%.</value>
+	<returns>Double in range [-100..+100]%.</returns>
+	<remarks></remarks>
+</member><member name="P:Droid_Theme_Studio.HSLFilter.Lightness">
+	<summary>
+ Get or set lightness correction value.
+ </summary>
+	<value>Double in range [-100..+100]%.</value>
+	<returns>Double in range [-100..+100]%.</returns>
+	<remarks></remarks>
+</member><member name="M:Droid_Theme_Studio.HSLFilter.ExecuteFilter(System.Drawing.Image)">
+	<summary>
+ Execute filter and return filtered image.
+ </summary>
+	<param name="img"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Droid_Theme_Studio.HSLFilter.ExecuteRgb8(System.Drawing.Image)">
+	<summary>
+ Execute filter on (A)RGB image with 8 bits per color.
+ </summary>
+	<param name="img"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:Droid_Theme_Studio.BasicFilter._bgColor">
+	<summary>
+ Background color. Default is a transparent background.
+ </summary>
+</member><member name="F:Droid_Theme_Studio.BasicFilter._interpolation">
+	<summary>
+ Interpolation mode. Default is highest quality.
+ </summary>
+</member><member name="P:Droid_Theme_Studio.BasicFilter.BackgroundColor">
+	<summary>
+ Get or set background color.
+ </summary>
+</member><member name="P:Droid_Theme_Studio.BasicFilter.Interpolation">
+	<summary>
+ Get or set resize interpolation mode.
+ </summary>
+</member><member name="M:Droid_Theme_Studio.BasicFilter.ExecuteFilter(System.Drawing.Image)">
+	<summary>
+ Execute filter function and return new filtered image.
+ </summary>
+	<param name="img">Image to be filtered.</param>
+	<returns>New filtered image.</returns>
+</member><member name="F:Droid_Theme_Studio.ResizeFilter._width">
+	<summary>
+ Width of new image.
+ </summary>
+</member><member name="F:Droid_Theme_Studio.ResizeFilter._height">
+	<summary>
+ Height of new image.
+ </summary>
+</member><member name="P:Droid_Theme_Studio.ResizeFilter.Width">
+	<summary>
+ Get or set output image width.
+ </summary>
+</member><member name="P:Droid_Theme_Studio.ResizeFilter.Height">
+	<summary>
+ Get or set output image height.
+ </summary>
+</member><member name="M:Droid_Theme_Studio.ResizeFilter.ExecuteFilter(System.Drawing.Image)">
+	<summary>
+ Execute resize of given image.
+ </summary>
+	<param name="img">Image to be resized.</param>
+	<returns>Resized image.</returns>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.book">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.corss_x_circle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.info">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.info1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.info2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Information">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Information_circle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.mobile_phone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.music_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.music_note">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Palette_Colours">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.photo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.photo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.reload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Settings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Text_document">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Droid_Theme_Studio.My.Resources.Resources.Theme_Project">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Project&gt;
+&lt;Properties TargetPlatform="" Resolution=""&gt;
+&lt;ProjectName&gt;&lt;/ProjectName&gt;
+&lt;Version&gt;&lt;/Version&gt;
+&lt;ThemeAuthor&gt;&lt;/ThemeAuthor&gt;
+&lt;PackageName&gt;&lt;/PackageName&gt;
+&lt;/Properties&gt;
+&lt;Customizing&gt;
+&lt;Preview&gt;&lt;/Preview&gt;
+&lt;Wallpaper&gt;&lt;/Wallpaper&gt;
+&lt;Ringtone&gt;&lt;/Ringtone&gt;
+&lt;Alarm&gt;&lt;/Alarm&gt;
+&lt;Notification&gt;&lt;/Notification&gt;
+&lt;/Customizing&gt;
+&lt;Folders&gt;
+&lt;Xml&gt;&lt;/Xml&gt;
+&lt;values&gt;&lt;/values&gt;
+&lt;Drawable&gt;&lt;/Drawable&gt;
+&lt;Drawable_LDPI&gt;&lt;/Drawable_LDPI&gt;
+&lt;Drawable_MDPI&gt;&lt;/Drawable_MDPI&gt;
+&lt;Drawable_HD [rest of string was truncated]";.
+</summary>
+</member><member name="T:Droid_Theme_Studio.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
